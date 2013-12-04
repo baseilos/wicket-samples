@@ -1,0 +1,23 @@
+<wicket:extend>
+	<div wicket:id="showInfo">
+		<b>Username:</b> <span wicket:id="username" />
+		<br />
+		<b>Realname:</b> <span wicket:id="realname" />
+		<br />
+		<b>E-mail:</b> <span wicket:id="email" />
+		<br />
+		<a href="#" wicket:id="backLink">Back</a>
+	</div>
+	<div wicket:id="form">
+		<div wicket:id="formFeedback"></div>
+		<form wicket:id="userInfoForm">
+			Username: <input type="text" wicket:id="username" />
+			<br />
+			Realname: <input type="text" wicket:id="realname" />
+			<br />
+			E-mail: <input type="text" wicket:id="email" />
+			<br />
+			<input type="submit" />
+		</form>
+	</div>
+</wicket:extend>
